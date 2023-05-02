@@ -1,0 +1,59 @@
+html,body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    margin: 0;
+}
+.login-box {
+  width: 380px;
+  height: 400px;
+  background: #d1d1d156;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 25px;
+  box-shadow: #000000 0px 0px 8px 0px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+#username,#password{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+.submit{
+  width: 100%;
+  background-color: #45a049;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid #48ff00;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: #4CAF50;
+}
